@@ -15,8 +15,6 @@ HARDWARE USED AS INPUT:
 
 	·Ardafruit HUZZAH ESP8266 https://www.adafruit.com/product/2471
 
-	·
-
 	·Ardafruit 10-DOF IMU https://www.adafruit.com/products/1604
 
 	·Arduino libraries: ESP8266 WifiUdp OSCMessage Adafruit_Sensor Adafruit_LSM303_U
@@ -27,7 +25,7 @@ HOWTO:
 
 -Edit Huzzah_template.ino and change WiFi parameters, network addresses and ball ID.
 -Load the file to your board.
--You can use ARDUINO IDE:  ESP8266 with Arduino IDE: https://learn.adafruit.com/adafruit-huzzah-esp8266-breakout/using-arduino-ide
+-You can use ARDUINO IDE:  ESP8266 with Arduino IDE https://learn.adafruit.com/adafruit-huzzah-esp8266-breakout/using-arduino-ide
 
 2-input.pd (puredata)
 
