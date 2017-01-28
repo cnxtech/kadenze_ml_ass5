@@ -8,8 +8,8 @@
 #include <Adafruit_LSM303_U.h>
 
 /*--------------NETWORK-----------------------------*/
-char ssid[] = "MOVISTAR_8A52";          // your network SSID (name)
-char pass[] = "c4c4d3v4c4";                    // your network password
+char ssid[] = "YOUR_SSID";          // your network SSID (name)
+char pass[] = "YOUR_KEY";                    // your network password
 
 WiFiUDP Udp;                                // A UDP instance to let us send and receive packets over UDP
 const IPAddress outIp(192,168,1,51);        // remote IP of your computer
