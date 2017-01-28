@@ -1,0 +1,38 @@
+#N canvas 321 138 856 429 10;
+#X obj 163 130 print other;
+#X obj 163 110 spigot;
+#X obj 194 89 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 77 136 spigot;
+#X obj 110 116 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 64 46 r osc_in_msg;
+#X obj 319 46 loadbang;
+#X obj 319 87 float \$1;
+#X obj 64 85 mrpeach/routeOSC /\$1;
+#X obj 64 209 mrpeach/routeOSC /acclx /accly /acclz /magnx /magny /magnz
+;
+#X obj 63 377 s ball\$1_accx;
+#X obj 122 346 s ball\$1_accy;
+#X obj 179 316 s ball\$1_accz;
+#X obj 236 291 s ball\$1_magnx;
+#X obj 295 266 s ball\$1_magny;
+#X obj 351 239 s ball\$1_magnz;
+#X obj 319 126 s ball\$1;
+#X obj 77 160 print ball\$1;
+#X connect 1 0 0 0;
+#X connect 2 0 1 1;
+#X connect 3 0 17 0;
+#X connect 4 0 3 1;
+#X connect 5 0 8 0;
+#X connect 6 0 7 0;
+#X connect 7 0 16 0;
+#X connect 8 0 3 0;
+#X connect 8 0 9 0;
+#X connect 8 1 1 0;
+#X connect 9 0 10 0;
+#X connect 9 1 11 0;
+#X connect 9 2 12 0;
+#X connect 9 3 13 0;
+#X connect 9 4 14 0;
+#X connect 9 5 15 0;
